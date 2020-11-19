@@ -1,0 +1,7 @@
+button.button-style.btn.btn-primary{
+  background: linear-gradient(to right, #1cd8ba, #06abee);
+  color: white !important;
+  padding: 10px 24px !important;
+  border-radius: 0 23px;
+  margin: 0 10px
+}

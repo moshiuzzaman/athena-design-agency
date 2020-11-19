@@ -1,0 +1,17 @@
+.menu-link a {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    padding: 8px 20px !important;
+}
+a.button-style.nav-link {
+    background: linear-gradient(to right, #1cd8ba, #06abee);
+    color: white !important;
+    padding: 10px 24px !important;
+    border-radius: 0 23px;
+    margin: 0 10px
+}
+
+img.logo {
+    width: 100px;
+}
