@@ -5,7 +5,7 @@ import logo from '../../images/logo.png'
 const Menubar = () => {
     return (
         <Container>
-            <Navbar expand="lg" className="mt-4">
+            <Navbar expand="lg" className="pt-4">
                 <Navbar.Brand href="#home">
                     <img className="logo" src={logo} alt=""/>
                 </Navbar.Brand>

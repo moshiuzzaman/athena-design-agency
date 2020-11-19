@@ -1,0 +1,15 @@
+h1.header-heading {
+    font-family: auto;
+    font-size: 89px;
+    font-weight: 600;
+    line-height: 0.85em;
+}
+p.header-description {
+    font-size: 12px;
+    width: 70%;
+}
+.header {
+    background-image: url(../../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

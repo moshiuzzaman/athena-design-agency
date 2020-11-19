@@ -3,5 +3,6 @@ button.button-style.btn.btn-primary{
   color: white !important;
   padding: 10px 24px !important;
   border-radius: 0 23px;
-  margin: 0 10px
+  margin: 0 10px;
+  border: none;
 }
