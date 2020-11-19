@@ -16,7 +16,7 @@ const Menubar = () => {
                         <Nav.Link href="#link">About </Nav.Link>
                         <Nav.Link href="#link">Services  </Nav.Link>
                         <Nav.Link href="#link">Pricing  </Nav.Link>
-                        <Nav.Link href="#link">Our Team </Nav.Link>
+                        <Nav.Link href="#link">Team </Nav.Link>
                         <Nav.Link className="button-style" href="#link"> Contact us </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
