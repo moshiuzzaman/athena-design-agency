@@ -1,0 +1,24 @@
+img.service-image {
+    width: 80px;
+}
+.single-service {
+    border-radius: 50px 0;
+    transition: all 0.8s
+}
+.single-service:hover {
+    background: white;
+    box-shadow: 0 0 20px #bdf1e9;
+}
+.services-section{
+    background:#fafffd
+}
+.services-section-header{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+}
+.wavebg{
+    background-image: url(../../images/wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 35px;
+}

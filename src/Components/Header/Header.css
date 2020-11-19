@@ -1,11 +1,11 @@
 h1.header-heading {
-    font-family: auto;
+    font-family: 'Philosopher', sans-serif;
     font-size: 89px;
     font-weight: 600;
     line-height: 0.85em;
 }
-p.header-description {
-    font-size: 12px;
+p.section-description {
+    font-size: 13px;
     width: 70%;
 }
 .header {
