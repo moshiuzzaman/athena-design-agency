@@ -1,0 +1,37 @@
+.achivements-bg{
+    background-color: #FAFFFD;
+}
+
+.achivementsText{
+    margin-top:10%;
+}
+
+
+.achivementsHeader{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 900;
+}
+
+.achivementsParagraph{
+    color:#8D8D8D;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+
+}
+
+.achivementsLogo{
+    filter: brightness(0.2);
+}
+
+
+.achivementsHistory{
+    color: #4E4E4E;
+}
+.achivementsHistory:hover{
+    color: white;
+}
+
+.achivementsLogo:hover{
+    filter: brightness(100);
+}
+

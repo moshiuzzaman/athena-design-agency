@@ -1,0 +1,18 @@
+.feature-bg{
+    background-image: url(../../images/bg2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.featureText{
+    padding-top: 5%;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 800;
+}
+
+.featureParagraph{
+    color:#8D8D8D;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+}
