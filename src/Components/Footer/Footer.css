@@ -1,0 +1,6 @@
+button{
+    background:  linear-gradient(to right, #2AF598, #01A1FA);
+    border: none;
+    border-radius: 25px 0 !important;
+    color: #fff !important;
+}
