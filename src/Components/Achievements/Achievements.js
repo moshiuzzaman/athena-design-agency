@@ -11,15 +11,15 @@ const Achievements = () => {
         <div className="achivements-section">
             <div className="achivements-bg">
                 <div className="container">
-                    <div className="row py-5">
+                    <div id='achiveText'  className="row py-5">
 
                         <div className="achivementsText col-md-4">
-                            <h1 className="achivementsHeader">Our Achievements</h1>
+                            <h1 id="achiveHead"  className="achivementsHeader">Our Achievements</h1>
                             <p className="achivementsParagraph">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter.</p>
 
                         </div>
 
-                        <div className="offset-md-1 col-md-7 mt-5">
+                        <div id='achive' className="offset-md-1 col-md-7 mt-5">
                             <div className="row">
                                 <div className="col-md-6 text-center">
                                     <div className="achivenmentsCard row d-flex align-items-center mb-5">

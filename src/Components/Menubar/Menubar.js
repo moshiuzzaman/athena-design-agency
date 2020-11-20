@@ -13,11 +13,11 @@ const Menubar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto menu-link text-center">
                         <Nav.Link href="#home">Home </Nav.Link>
-                        <Nav.Link href="#link">About </Nav.Link>
-                        <Nav.Link href="#link">Services  </Nav.Link>
-                        <Nav.Link href="#link">Pricing  </Nav.Link>
-                        <Nav.Link href="#link">Our Team </Nav.Link>
-                        <Nav.Link className="button-style" href="#link"> Contact us </Nav.Link>
+                        <Nav.Link href="#home">About </Nav.Link>
+                        <Nav.Link href="#service">Services  </Nav.Link>
+                        <Nav.Link href="#pricing">Pricing  </Nav.Link>
+                        <Nav.Link href="#team">Our Team </Nav.Link>
+                        <Nav.Link className="button-style" href="#contact"> Contact us </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

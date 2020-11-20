@@ -6,7 +6,7 @@ import './Services.css'
 
 const Services = () => {
     return (
-        <div className="services-section">
+        <div id='service' className="services-section">
             <div className="wavebg">
                 <Container align="center" className='py-5'>
                     <h2 className="services-section-header">What we do</h2>

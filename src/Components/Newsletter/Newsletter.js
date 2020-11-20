@@ -2,7 +2,7 @@ import React from 'react';
 import './Newsletter.css';
 const Newsletter = () => {
     return (
-       <div className='normalBg'>
+       <div id='contact' className='normalBg'>
             <div className='container p-5 text-center' >
             <h1 className='pricingHeader'>Get your design right, right now</h1>
             <p className='achivementsParagraph'>Be the first know our latest offers and updates!</p>

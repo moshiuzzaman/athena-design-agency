@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+
 import './Pricing.css';
 
 const Pricing = () => {
     return (
-        <div className="pricingBg">
+        <div id='pricing' className="pricingBg">
             <div className="newBg">
                 <div className=' p-5 text-center pricingContainer'>
                     <h1 className='text-center pt-5 pricingHeader'>Choose Your Dedicated Team</h1>
