@@ -4,53 +4,54 @@ import logo from '../../images/logo.png';
 import twitter from '../../images/twitter (4)@2x.png';
 import linkedin from '../../images/facebook-logo-in-circular-shape@2x.png';
 import dribbble from '../../images/dribbble (1)@2x.png';
+import './Footer.css';
 
 
 const Footer = () => {
     return (
-        <div className='w-100 p-5'>
-            <footer class="page-footer font-small pt-4">
-                <div class="container text-center text-md-left">
-                    <div class="row">
-                        <div class="col-md-4 mx-auto">
-                            <img src={logo} style={{ width: '100px',marginBottom:'5%', paddingTop:'15%' }} alt=""/>
-                            <ul class="list-unstyled list-inline text-left">
-                    <li class="list-inline-item">
-                        <a class="btn-floating btn-fb mx-1">
-                            <img src={fb} alt="" className='w-50' />
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="btn-floating btn-tw mx-1">
-                        <img src={twitter} alt="" className='w-50'/>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="btn-floating btn-gplus mx-1">
-                        <img src={linkedin} alt="" className='w-50'/>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="btn-floating btn-li mx-1">
-                        <img src={dribbble} alt="" className='w-50'/>
-                        </a>
-                    </li>
-            
-                </ul>
+        <div className='w-100 p-5 normalBg'>
+            <footer className="page-footer font-small pt-4">
+                <div className="container text-center text-md-left">
+                    <div className="row d-flex align-items-center">
+                        <div className="col-md-4 mx-auto">
+                            <img src={logo} style={{ width: '100px', marginBottom: '5%', paddingTop: '15%' }} alt="" />
+                            <ul className="list-unstyled list-inline text-left">
+                                <li className="list-inline-item">
+                                    <a class="btn-floating btn-fb mx-1">
+                                        <img src={fb} alt="" className='w-50' />
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="btn-floating btn-tw mx-1">
+                                        <img src={twitter} alt="" className='w-50' />
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="btn-floating btn-gplus mx-1">
+                                        <img src={linkedin} alt="" className='w-50' />
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="btn-floating btn-li mx-1">
+                                        <img src={dribbble} alt="" className='w-50' />
+                                    </a>
+                                </li>
+
+                            </ul>
                         </div>
 
 
-                        <hr class="clearfix w-100 d-md-none" />
-                        <div class="col-md-2 mx-auto">
-                            <ul class="list-unstyled">
+                        <hr className="clearfix w-100 d-md-none" />
+                        <div className="col-md-2 mx-auto mt-4 link">
+                            <ul className="list-unstyled">
                                 <li>
-                                Features
+                                    Features
                                 </li>
                                 <li>
-                                Enterprise
+                                    Enterprise
                                 </li>
                                 <li>
-                                Pricing
+                                    Pricing
                                 </li>
                             </ul>
 
@@ -58,19 +59,19 @@ const Footer = () => {
 
 
                         <hr class="clearfix w-100 d-md-none" />
-                        <div class="col-md-2 mx-auto">
-                            <ul class="list-unstyled">
+                        <div className="col-md-2 mx-auto mt-5 link">
+                            <ul className="list-unstyled">
                                 <li>
-                                Blog
+                                    Blog
                                 </li>
                                 <li>
-                                Help Center
+                                    Help Center
                                 </li>
                                 <li>
-                                Contact Us
+                                    Contact Us
                                 </li>
                                 <li>
-                                Status
+                                    Status
                                 </li>
                             </ul>
 
@@ -78,19 +79,19 @@ const Footer = () => {
 
 
                         <hr class="clearfix w-100 d-md-none" />
-                        <div class="col-md-2 mx-auto">
-                        <ul class="list-unstyled">
+                        <div className="col-md-2 mx-auto mt-5 link">
+                            <ul className="list-unstyled">
                                 <li>
-                                About Us
+                                    About Us
                                 </li>
                                 <li>
-                                Terms of Service
+                                    Terms of Service
                                 </li>
                                 <li>
-                                Security
+                                    Security
                                 </li>
                                 <li>
-                                Login
+                                    Login
                                 </li>
 
                             </ul>

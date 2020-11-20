@@ -1,0 +1,53 @@
+.pricingHeader{
+    font-weight:800;
+    font-family: 'Philosopher', sans-serif;
+}
+.newBg{
+    background-image: url(../../images/bg2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.priceList{
+    color:#353535;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+}
+.card{
+    border: none;
+    box-shadow: 1px 5px 10px 6px rgba(0,0,0,0.28);
+    height:525px;
+}
+
+.card:hover{
+    border:1px solid #3CEDCE   ;
+    cursor:pointer;   
+    color: black;
+    
+}
+.pricingBg{
+    background-color: #FAFFFD;
+}
+
+.orderButton {
+    background: linear-gradient(to right, #1cd8ba, #06abee);
+    color: white !important;
+    padding: 10px 24px !important;
+    border-radius: 0 23px;
+    margin: 0 10px;
+    border: none;
+    display:none;
+}
+.card:hover .orderButton{
+    display: inline;
+}
+
+hr{   
+    border-top: 2px solid #3CEDCE !important; 
+}
+
+.card:hover hr{
+    border-top: 2px solid  rgba(0,0,0,.1) !important;
+}
+
+

@@ -13,25 +13,69 @@
 }
 
 .achivementsParagraph{
-    color:#8D8D8D;
+    color:#464646;
     font-family: 'Philosopher', sans-serif;
     font-size: 16px;
 
 }
 
-.achivementsLogo{
-    filter: brightness(0.2);
+.achivenmentsCard:hover{
+   width: 300px;
+   height:145px;
+   padding: 5%;
+   background: linear-gradient(to right, #1cd8ba, #06abee);
+    color: white !important;  
+    border-radius: 0 23px;
+    border: none;
+
+}
+
+.achivenmentsCard:hover .happy{
+    filter: brightness(900);
+
 }
 
 
-.achivementsHistory{
-    color: #4E4E4E;
+.achivenmentsCard{
+    width: 300px;
+   height:145px;
+  padding: 5%;
+  border: none;
+  background-color: white;
+  border-radius: 0 23px;
+
+
 }
-.achivementsHistory:hover{
+
+.happy1{
+    filter: brightness(.5);
+}
+
+.achivenmentsCard:hover .happy1{
+    filter: brightness(900);
+}
+
+.achivementShow{
+    color:#464646;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+}
+
+.achivenmentsCard:hover .achivementShow{
+    color: white;
+} 
+
+.achivementNumber{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 900;
+    color:#707070;
+
+}
+
+.achivenmentsCard:hover .achivementNumber{
     color: white;
 }
 
-.achivementsLogo:hover{
-    filter: brightness(100);
-}
+
+
 

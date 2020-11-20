@@ -5,7 +5,9 @@ h1.header-heading {
     line-height: 0.85em;
 }
 p.section-description {
-    font-size: 13px;
+    color:#464646;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
     width: 70%;
 }
 .header {

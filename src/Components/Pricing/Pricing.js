@@ -1,58 +1,70 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import './Pricing.css';
 
 const Pricing = () => {
     return (
-        <div className='container p-5 text-center'>
-            <h1 className='text-center'> Choose Your Dedicated Team</h1>
-            <div>
-                <div class="card-deck p-5">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">$199</h5>
-                            <small>For Basic</small>
-                            <hr/>
-                            <p class="card-text"> Homepage</p>
-                            <p class="card-text"> No Inner Page</p>
-                            <p class="card-text"> Asset file</p>
-                            <p class="card-text"> Source file</p>
-                            <p class="card-text"> Free Stock Photos</p>
-                            <p class="card-text"> 10 Days Free Support</p>
-                            <p class="card-text"> 24/7 Support</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                        <h5 class="card-title">$399</h5>
-                            <small>For Preferred</small>
-                            <hr/>
-                            <p class="card-text"> Homepage</p>
-                            <p class="card-text"> 4 Inner Pages</p>
-                            <p class="card-text"> Asset file</p>
-                            <p class="card-text"> Source file</p>
-                            <p class="card-text"> Free Stock Photos</p>
-                            <p class="card-text"> 20 Days Free Support</p>
-                            <p class="card-text"> 24/7 Support</p>
+        <div className="pricingBg">
+            <div className="newBg">
+                <div className=' p-5 text-center pricingContainer'>
+                    <h1 className='text-center pt-5 pricingHeader'>Choose Your Dedicated Team</h1>
+
+                    <div className="card-deck p-5">
+                        <div className="card">
+                            <div className="card-body">
+                                <h1 className="card-title pricingHeader">$199</h1>
+                                <h6>For Basic</h6>
+                               <hr></hr>
+                                <p className="card-text priceList"> Homepage</p>
+                                <p className="card-text priceList"> No Inner Page</p>
+                                <p className="card-text priceList"> Asset file</p>
+                                <p className="card-text priceList"> Source file</p>
+                                <p className="card-text priceList"> Free Stock Photos</p>
+                                <p className="card-text priceList"> 10 Days Free Support</p>
+                                <p className="card-text priceList"> 24/7 Support</p>
+                                <button className="orderButton mt-5">Order Now</button>
+                                
+                            </div>
+
                             
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                        <h5 class="card-title">$199</h5>
-                            <small>For Basic</small>
-                            <hr/>
-                            <p class="card-text"> Homepage</p>
-                            <p class="card-text"> 8 Inner Pages</p>
-                            <p class="card-text"> Asset file</p>
-                            <p class="card-text"> Source file</p>
-                            <p class="card-text"> Free Stock Photos</p>
-                            <p class="card-text"> 30 Days Free Support</p>
-                            <p class="card-text"> 24/7 Support</p>
-                            
+                        <div className="card">
+                            <div className="card-body">
+                                <h1 className="card-title pricingHeader">$399</h1>
+                                <h6>For Preferred</h6>
+                               <hr></hr>
+                                <p className="card-text priceList"> Homepage</p>
+                                <p className="card-text priceList"> 4 Inner Pages</p>
+                                <p className="card-text priceList"> Asset file</p>
+                                <p className="card-text priceList"> Source file</p>
+                                <p className="card-text priceList"> Free Stock Photos</p>
+                                <p className="card-text priceList"> 20 Days Free Support</p>
+                                <p className="card-text priceList"> 24/7 Support</p>
+                                <button className="orderButton mt-5">Order Now</button>
+
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h1 className="card-title pricingHeader">$599</h1>
+                                <h6>For Elite</h6>
+                               <hr></hr>
+                                <p className="card-text priceList"> Homepage</p>
+                                <p className="card-text priceList"> 8 Inner Pages</p>
+                                <p className="card-text priceList"> Asset file</p>
+                                <p className="card-text priceList"> Source file</p>
+                                <p className="card-text priceList"> Free Stock Photos</p>
+                                <p className="card-text priceList"> 30 Days Free Support</p>
+                                <p className="card-text priceList"> 24/7 Support</p>
+                                <button className="orderButton mt-5">Order Now</button>
+
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Row } from 'react-bootstrap';
+
 import './Achievements.css';
 import happy from '../../images/happy@2x.png';
 import projects from '../../images/marketing@2x.png';
@@ -9,7 +9,7 @@ import transportation from '../../images/transportation@2x.png';
 const Achievements = () => {
     return (
         <div className="achivements-section">
-            <div className="achivements-bg mb-5">
+            <div className="achivements-bg">
                 <div className="container">
                     <div className="row py-5">
 
@@ -20,49 +20,52 @@ const Achievements = () => {
                         </div>
 
                         <div className="offset-md-1 col-md-7 mt-5">
-                            <Row>
-                                <Col>
-                                    <Button className='button-style mb-5'>
-                                        <Row>
-                                            <Col><img className='achivementsLogo mt-3' src={happy} alt="" /></Col>
-                                            <Col>
-                                                <h1 className='achivementsHistory'>700+</h1><span className='achivementsHistory'>Happy Clients</span>
-                                            </Col>
-                                        </Row>
-                                    </Button>
-
-
-                                    <Button className='button-style'>
-                                        <Row>
-                                            <Col><img className='achivementsLogo mt-3' src={surface} alt="" /></Col>
-                                            <Col>
-                                                <h1 className='achivementsHistory'>25+</h1><span className='achivementsHistory'>Crazy Minds</span>
-                                            </Col>
-                                        </Row>
-                                    </Button>
-
-                                </Col>
-                                <Col>
-                                <Button className='button-style mb-5'>
-                                        <Row>
-                                            <Col><img className='achivementsLogo mt-3' src={projects} alt="" /></Col>
-                                            <Col>
-                                                <h1 className='achivementsHistory'>140+</h1><span className='achivementsHistory'>Projects Completed</span>
-                                            </Col>
-                                        </Row>
-                                    </Button>
-
-                                    <Button className='button-style'>
-                                        <Row>
-                                            <Col><img className='achivementsLogo mt-3' src={transportation} alt="" /></Col>
-                                            <Col>
-                                                <h1 className='achivementsHistory'>75+</h1><span className='achivementsHistory'>Running Projects</span>
-                                            </Col>
-                                        </Row>
-                                    </Button>
-                                </Col>
-
-                            </Row>
+                            <div className="row">
+                                <div className="col-md-6 text-center">
+                                    <div className="achivenmentsCard row d-flex align-items-center mb-5">
+                                        <div>
+                                            <img className="happy1" src={happy} alt="" />
+                                        </div>
+                                        <div className="pl-5">
+                                            <h1 className='achivementNumber'>700+</h1>
+                                            <p className='achivementShow'>Happy Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-12 text-center cardNew">
+                                    <div className="achivenmentsCard row d-flex align-items-center">
+                                        <div>
+                                            <img className="happy" src={projects} alt="" />
+                                        </div>
+                                        <div className="pl-5">
+                                            <h1 className='achivementNumber'>140+</h1>
+                                            <p className='achivementShow'>Project Completed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 text-center cardNew">
+                                    <div className="achivenmentsCard row d-flex align-items-center">
+                                        <div>
+                                            <img className="happy" src={surface} alt="" />
+                                        </div>
+                                        <div className="pl-5">
+                                            <h1 className='achivementNumber'>35+</h1>
+                                            <p className='achivementShow'>Crazy Minds</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 text-center cardNew">
+                                    <div className="achivenmentsCard row d-flex align-items-center">
+                                        <div>
+                                            <img className="happy" src={transportation} alt="" />
+                                        </div>
+                                        <div className="pl-5">
+                                            <h1 className='achivementNumber'>75+</h1>
+                                            <p className='achivementShow'>Running Projects</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
